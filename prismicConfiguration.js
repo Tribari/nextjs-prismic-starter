@@ -24,7 +24,11 @@ export const linkResolver = (doc) => {
 export const routeResolver = {
   routes: [
     {
-      "type":"page",
+      "type":"homepage",
+      "path":"/"
+    },
+    {
+      "type":"pages",
       "path":"/:uid"
     },
   ]
