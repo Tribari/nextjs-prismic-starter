@@ -1,7 +1,8 @@
 {
-  "apiEndpoint": "https://Test.prismic.io/api/v2",
+  "apiEndpoint": "https://mein-test.cdn.prismic.io/api/v2",
   "libraries": [
     "@/slices"
   ],
-  "_latest": "0.1.0"
+  "_latest": "0.1.0",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }
