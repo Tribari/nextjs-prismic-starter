@@ -120,7 +120,7 @@
         "meta": {
           "fileName": "index",
           "isDirectory": true,
-          "extension": "tsx"
+          "extension": "js"
         },
         "screenshotPaths": {
           "default-slice": {
