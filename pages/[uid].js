@@ -1,9 +1,8 @@
-import type { NextPage, GetStaticProps, GetStaticPaths } from 'next'
-import { Client } from '@/utils/prismicHelpers'
-import { queryRepeatableDocuments } from '@/utils/queries'
+import { Client } from '../utils/prismicHelpers'
+import { queryRepeatableDocuments } from '../utils/queries'
 import { RichText } from 'prismic-reactjs'
 
-const Page: NextPage = ({data}: any) => {
+const Page = ({data}) => {
 
     if(data) {
         return (
@@ -32,7 +31,7 @@ export async function getStaticProps({params}) {
 }
 
 export async function getStaticPaths() {
-    const documents = await queryRepeatableDocuments((doc: any) => doc.type === 'pages')
+    const documents = await queryRepeatableDocuments((doc) => doc.type === 'pages')
 
     return {
         paths: documents.map(doc => `/${doc.uid}`),

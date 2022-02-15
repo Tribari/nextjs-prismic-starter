@@ -1,8 +1,7 @@
-import type { NextPage, GetStaticProps } from 'next'
-import { Client } from '@/utils/prismicHelpers'
+import { Client } from '../utils/prismicHelpers'
 import { RichText } from 'prismic-reactjs'
 
-const Home: NextPage = ({data}: any) => {
+const Home = ({data}) => {
 
   if(data) {
     return (

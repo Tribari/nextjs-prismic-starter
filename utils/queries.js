@@ -1,4 +1,4 @@
-import { Client } from '@/utils/prismicHelpers'
+import { Client } from '../utils/prismicHelpers'
 
 // ~/utils/queries.js
 async function fetchDocs(page = 1, routes = []) {
