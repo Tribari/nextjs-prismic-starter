@@ -4,7 +4,6 @@ import { queryRepeatableDocuments } from '@/utils/queries'
 import { RichText } from 'prismic-reactjs'
 
 const Page: NextPage = ({data}: any) => {
-    console.log(data)
 
     if(data) {
         return (

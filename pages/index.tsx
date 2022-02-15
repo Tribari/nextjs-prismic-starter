@@ -1,13 +1,12 @@
 import type { NextPage, GetStaticProps } from 'next'
 import { Client } from '@/utils/prismicHelpers'
 import { RichText } from 'prismic-reactjs'
-import styles from '@/styles/Home.module.css'
 
 const Home: NextPage = ({data}: any) => {
 
   if(data) {
     return (
-      <div className={styles.container}>
+      <div>
         <RichText render={data.title} />
         <RichText render={data.text} />
       </div>
