@@ -77,7 +77,7 @@
               "title": [
                 {
                   "type": "paragraph",
-                  "text": "Adipisicing occaecat qui est ut nostrud et reprehenderit sit nostrud labore mollit do. Veniam ad sint sint labore cupidatat dolor anim Lorem laboris laborum.",
+                  "text": "Culpa nostrud eu ea fugiat.",
                   "spans": []
                 }
               ],
@@ -88,7 +88,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
               }
             }
           },
@@ -101,7 +101,7 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Mesh 24/365 e-business",
+                  "text": "Engineer open-source e-markets",
                   "spans": []
                 }
               ],
@@ -112,7 +112,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
               }
             }
           }
@@ -126,12 +126,90 @@
           "default-slice": {
             "path": "/Users/internetagenturkaehler/Projects/nextjs-prismic-starter/.slicemachine/assets/slices/TextImageRight/default-slice/preview.png",
             "width": 800,
-            "height": 555
+            "height": 468
           },
           "textImageLeft": {
             "path": "/Users/internetagenturkaehler/Projects/nextjs-prismic-starter/.slicemachine/assets/slices/TextImageRight/textImageLeft/preview.png",
             "width": 800,
-            "height": 562
+            "height": 564
+          }
+        }
+      },
+      "title": {
+        "library": "slices",
+        "id": "title",
+        "name": "Title",
+        "description": "Title",
+        "model": {
+          "id": "title",
+          "type": "SharedSlice",
+          "name": "Title",
+          "description": "Title",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Title",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "An awesome title...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+                  }
+                },
+                "subtitle": {
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": "Some describing subtitle...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "title",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Implement plug-and-play e-tailers",
+                  "spans": []
+                }
+              ],
+              "subtitle": [
+                {
+                  "type": "paragraph",
+                  "text": "Exercitation ullamco exercitation consectetur veniam nostrud eiusmod ullamco dolore. Deserunt fugiat excepteur deserunt eu do in eu ad eu.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/internetagenturkaehler/Projects/nextjs-prismic-starter/.slicemachine/assets/slices/Title/default-slice/preview.png",
+            "width": 800,
+            "height": 168
           }
         }
       }

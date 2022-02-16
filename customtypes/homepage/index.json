@@ -30,6 +30,9 @@
           "choices": {
             "text_image_right": {
               "type": "SharedSlice"
+            },
+            "title": {
+              "type": "SharedSlice"
             }
           }
         }
